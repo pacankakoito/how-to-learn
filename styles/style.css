@@ -119,7 +119,6 @@ span{
   margin-bottom: 0;
 }*/
 .digits{
-  margin: 100px auto;
   border: 3px solid blueviolet;
   display:flex;
   flex-direction: column;
@@ -151,10 +150,10 @@ span{
   flex-wrap: wrap;
   justify-content: space-between;
   border: 3px solid blueviolet;
+  margin-bottom: 100px;
 }
 .table__cell{
   width: 250px;
- /* margin-right: 60px;*/
   margin-top: 60px;
   border: 3px solid blue;
 }
@@ -167,20 +166,15 @@ span{
 .table__text{
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
   margin-top: 20px;
+  margin-bottom: 0;
   border: 3px solid blue;
-}
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 .feynman{
   height: 790px;
-  background-image: url(/images/feynman.png);
-  background-position: bottom left;
+  background-image: url(/images/feynman.png);/*фоновая картинка с мужиком*/
+  background-position: bottom left;/*позиция фона в нижнем левом углу*/
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-color:  #f2f2f2;
@@ -213,4 +207,48 @@ span{
   position: absolute;/*абсолютная привязка к позиции*/
   right: 48px;
   top: 50%;/*привязка к середине*/
+}
+.kaufman{
+  background-color:  #000000;
+  border: 3px solid blueviolet;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+     
+}
+.section-title_theme_dark{
+  color: white;
+  margin-top: 90px;
+}
+.section-subtitle_theme_dark{
+  color: white;
+}
+.table_theme_dark{
+  margin-bottom:90px;
+  z-index: 2;
+}
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  /*color: white;*/
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 1;
+}
+.table__heading_theme_dark{
+  text-align: start;
+  color: white;
+}
+.table__text_theme_dark{
+ font-weight: normal;
+ color: white;
+   /* margin-bottom: 0;*/
+}
+.kaufman__triangle{
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
 }
