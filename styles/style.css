@@ -306,7 +306,8 @@ footer{
 }
 .footer__column-links{
   border: 3px solid blueviolet;
-  margin: 20px 0 18px;
+  color: white;
+  text-decoration: none;
 }
 .footer__column-link{
   line-height: 30px;
@@ -320,6 +321,12 @@ footer{
   justify-content: start;
   align-items: center;
   margin: 0;
+}
+.footer__column-link:first-of-type{
+  margin-top: 20px;
+}
+.footer__column-link:last-of-type{
+  margin-bottom: 16px;
 }
 .footer__social-icon{
   height: 16px;
