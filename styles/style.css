@@ -98,10 +98,7 @@ h1,h2,h3{
   min-width: 784px;
  }
 
-/*.two-columns__paragraph{
-
-}*/
-.paragraph-text{
+.two-columns__paragraph{
   line-height: 34px;
   font-size: 24px;
   margin-top: 0;
@@ -110,7 +107,7 @@ h1,h2,h3{
 .paragraph-text:last-of-type{
   margin-bottom: 0;
 }
-span{
+.two-columns__span-accent{
   font-weight: bold;
 }
 .digits{
