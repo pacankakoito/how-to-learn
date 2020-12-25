@@ -159,7 +159,6 @@
 .table__cell{
   width: 250px;
   margin-top: 60px;
-  border: solid 3px red;
 }
 .table__cell_theme_dark {
   width: 200px;
