@@ -1,0 +1,7 @@
+.header__link{
+    text-decoration: none;
+    color:#2f80ed;
+  }
+  .header__link:hover {
+    outline: dotted #2f80ed;/* добавил ховер, чтобы ссылки при наведении курсора появлялась голубая рамка*/
+  }
