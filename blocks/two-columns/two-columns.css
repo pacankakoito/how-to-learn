@@ -1,6 +1,6 @@
 .two-columns{
     width: 80%;
-    margin-top: 100px;
+    margin: 0;
     display:flex;
     flex-direction: row;/*выстроили элементы в ряд*/
     justify-content: space-between;/*развели блоки по сторонам*/

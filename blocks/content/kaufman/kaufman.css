@@ -6,4 +6,6 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }

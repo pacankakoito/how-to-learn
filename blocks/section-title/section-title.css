@@ -1,11 +1,9 @@
 .section-title{
-    margin-top: 100px;
-    margin-bottom: 0;
+    margin:0;
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
     width:60%;
     display:flex;
     justify-content: center;
-    border: solid 3px red;
   }

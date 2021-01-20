@@ -1,4 +1,5 @@
 .description{
     display: flex;
     justify-content: center;/*отцентровали весь блок*/
+    padding-top:100px;
   }
