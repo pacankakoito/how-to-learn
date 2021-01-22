@@ -3,4 +3,9 @@
     width:270px;
     margin:0;
     object-fit: contain;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.resources__logo:hover {
+opacity: 0.5;/*ссылка при наведении плавно становится прозрачнее*/
 }

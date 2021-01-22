@@ -1,7 +1,7 @@
 .khan__buy-link{
     line-height: 42px;
     font-size: 30px;
-    height:42px;
+    align-self: flex-start;
     text-decoration: none;
     color:#2f80ed;
     margin: 0;
